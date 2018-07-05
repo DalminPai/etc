@@ -1,6 +1,11 @@
 #!/bin/bash
 
 
+## -- Usage -- ##
+## Please run this script in you local computer.
+## example command> ./check.sh >&check.log&
+
+
 Name=( "main" "indico" "mirror" )
 
 while true
