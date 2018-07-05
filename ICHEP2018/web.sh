@@ -119,6 +119,7 @@ done
 echo
 echo "Status(main, indico, mirror): (${Totoal_Status[0]}, ${Totoal_Status[1]}, ${Totoal_Status[2]})"
 
+## -- Send a mail if there is an error -- ##
 if [ ${Totoal_Status[0]} = "ERROR" -o ${Totoal_Status[1]} = "ERROR" -o ${Totoal_Status[2]} = "ERROR" ]; then
 	echo "ERROR is found" | mail -s "check ICHEP2018 web sites" dustmqdyd93@gmail.com
 fi
