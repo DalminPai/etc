@@ -64,5 +64,4 @@ echo "Status(main, indico, mirror): (${Status[0]}, ${Status[1]}, ${Status[2]})"
 if [ ${Status[0]} = "ERROR" -o ${Status[1]} = "ERROR" -o ${Status[2]} = "ERROR" ]; then
 	echo "ERROR is found" | mail -s "check ICHEP2018 web sites" dustmqdyd93@gmail.com
 fi
-echo "ERROR is found" | mail -s "test: check ICHEP2018 web sites" dustmqdyd93@gmail.com
 
