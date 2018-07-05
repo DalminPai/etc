@@ -7,7 +7,7 @@ while true
 do
 	for name in ${Name[@]}; do
 		rm -f $name.log
-		rm -f $name.pdf
+		rm -f *.pdf
 	done
 
 	date
