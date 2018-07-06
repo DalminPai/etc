@@ -19,30 +19,13 @@ Site_List=(
 	)
 Download_List_Indico=(
 	"https://indico.cern.ch/event/686555/book-of-abstracts.pdf"
-	"https://indico.cern.ch/event/686555/contributions/2971169/attachments/1681020/2700703/marsicano_ichep18.pdf"
-	"https://indico.cern.ch/event/686555/contributions/2979566/attachments/1681046/2700746/20180705_hps_ichep.pdf"
-#	"https://indico.cern.ch/event/686555/contributions/2972279/attachments/1680191/2699090/Vercaemer_ICHEP18_final.pdf"
-#	"https://indico.cern.ch/event/686555/contributions/2972285/attachments/1680861/2700398/Diaz-MiniBooNE.pdf"
-#	"https://indico.cern.ch/event/686555/contributions/2986848/attachments/1681062/2700771/ICHEP.pdf"
-#	"https://indico.cern.ch/event/686555/contributions/2970881/attachments/1680795/2700281/triple-top_ICHEP.pdf"
-#	"https://indico.cern.ch/event/686555/contributions/2983616/attachments/1680921/2700854/FlackeICHEP2018.pdf"
-#	"https://indico.cern.ch/event/686555/contributions/2975600/attachments/1680793/2700272/icheptalk_Ligang_Xia.pdf"
-#	"https://indico.cern.ch/event/686555/contributions/2976694/attachments/1680565/2699821/Micromegas_ICHEP21018.pdf"
-#	"https://indico.cern.ch/event/686555/contributions/2976695/attachments/1680269/2699234/mherrmann_2m2MMperfomanceNcalibration.pdf"
-#	"https://indico.cern.ch/event/686555/contributions/2971559/attachments/1680936/2700529/Higgs_precision_implication_ICHEP_070518.pdf"
-#	"https://indico.cern.ch/event/686555/contributions/2960207/attachments/1681084/2700811/V_Myronenko_ICHEP2018.pdf"
-#	"https://indico.cern.ch/event/686555/contributions/2961453/attachments/1680979/2700625/July-5-2018_conf_2.pdf"
+	"https://indico.cern.ch/event/686555/contributions/2969926/attachments/1681998/2702582/ICHEP_2018_Solt_HPS.pdf"
+	"https://indico.cern.ch/event/686555/contributions/2970910/attachments/1681795/2702209/OT_ICHEP18_04.pdf"
 	)
 Download_List_Mirror=(
 	"http://147.47.50.77/OfflineWebsite-ICHEP2018_SEOUL/book-of-abstracts.pdf"
-	"http://147.47.50.77/OfflineWebsite-ICHEP2018_SEOUL/files/agenda/2970881-contribution/2700281-triple-top_ICHEP.pdf"
-	"http://147.47.50.77/OfflineWebsite-ICHEP2018_SEOUL/files/agenda/2983616-contribution/2700493-FlackeICHEP.pdf"
-#	"http://147.47.50.77/OfflineWebsite-ICHEP2018_SEOUL/files/agenda/2972279-contribution/2699090-Vercaemer_ICHEP18_final.pdf"
-#	"http://147.47.50.77/OfflineWebsite-ICHEP2018_SEOUL/files/agenda/2972285-contribution/2700398-Diaz-MiniBooNE.pdf"
-#	"http://147.47.50.77/OfflineWebsite-ICHEP2018_SEOUL/files/agenda/2975600-contribution/2700272-icheptalk_Ligang_Xia.pdf"
-#	"http://147.47.50.77/OfflineWebsite-ICHEP2018_SEOUL/files/agenda/2976694-contribution/2699821-Micromegas_ICHEP21018.pdf"
-#	"http://147.47.50.77/OfflineWebsite-ICHEP2018_SEOUL/files/agenda/2976695-contribution/2699234-mherrmann_2m2MMperfomanceNcalibration.pdf"
-#	"http://147.47.50.77/OfflineWebsite-ICHEP2018_SEOUL/files/agenda/2971559-contribution/2700529-Higgs_precision_implication_ICHEP_070518.pdf"
+	"http://147.47.50.77/OfflineWebsite-ICHEP2018_SEOUL/files/agenda/2969916-contribution/2698170-ICHEP2016_dark_Belle.pdf"
+	"http://147.47.50.77/OfflineWebsite-ICHEP2018_SEOUL/files/agenda/2947392-contribution/2684310-JRR_2018_ICHEP_LHT.pdf"
 	)
 Totoal_Status=()
 iter=0
