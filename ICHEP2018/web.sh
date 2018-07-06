@@ -125,7 +125,7 @@ echo "Status(main, indico, mirror): (${Totoal_Status[0]}, ${Totoal_Status[1]}, $
 ## -- Send a mail if there is an error (Please modify mail address if you need) -- ##
 mail_address="dustmqdyd93@gmail.com"
 if [ ${Totoal_Status[0]} = "ERROR" -o ${Totoal_Status[1]} = "ERROR" -o ${Totoal_Status[2]} = "ERROR" ]; then
-	echo "Error will be informed by mail..."
+	echo "Error will be informed by email: $mail_address"
 	echo "ERROR is found" | mail -s "check ICHEP2018 web sites" $mail_address
 fi
 
