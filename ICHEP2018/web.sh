@@ -4,9 +4,9 @@
 # -- progress bar function -- ##
 prog() {
     local w=80 p=$1;  shift
-    # create a string of spaces, then change them to dots
+    ## create a string of spaces, then change them to dots
     printf -v dots "%*s" "$(( $p*$w/100 ))" ""; dots=${dots// /=};
-    # print those dots on a fixed-width space plus the percentage etc.
+    ## print those dots on a fixed-width space plus the percentage etc.
     printf "\r\e[K|%-*s| %3d %% of total list %s" "$w" "$dots" "$p" "$*";
 }
 
@@ -111,5 +111,9 @@ echo "Status(main, indico, mirror): (${Totoal_Status[0]}, ${Totoal_Status[1]}, $
 ## If there is a problem in wifi connection, then email will not be sent to you.
 mail_address="dustmqdyd93@gmail.com"
 echo "Report status by email: $mail_address"
-echo "Status(main, indico, mirror): (${Totoal_Status[0]}, ${Totoal_Status[1]}, ${Totoal_Status[2]})" | mail -s "Status of ICHEP2018 web sites" $mail_address
+## Contents of email
+Line1="Status(main, indico, mirror): (${Totoal_Status[0]}, ${Totoal_Status[1]}, ${Totoal_Status[2]})"
+Line2="(sent at `date | grep 2018`)"
+
+echo -e "${Line1}\n${Line2}" | mail -s "Status of ICHEP2018 web sites" $mail_address
 

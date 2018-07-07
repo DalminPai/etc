@@ -42,8 +42,10 @@ do
 
 	./web.sh
 
-	echo "(sleep 1m)"
-	sleep 60
+#	echo "(sleep 1m)"
+#	sleep 60
+	echo "(sleep 5m)"
+	sleep 300
 	
 	echo "-------------------------------------------------------"
 done
