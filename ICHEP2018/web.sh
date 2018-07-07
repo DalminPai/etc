@@ -17,6 +17,7 @@ Site_List=(
 	"https://indico.cern.ch/event/686555/"
 	"http://147.47.50.77/OfflineWebsite-ICHEP2018_SEOUL/overview.html"
 	)
+## You can modify download list of indico and mirror sites if you need.
 Download_List_Indico=(
 	"https://indico.cern.ch/event/686555/book-of-abstracts.pdf"
 	"https://indico.cern.ch/event/686555/contributions/2969926/attachments/1681998/2702582/ICHEP_2018_Solt_HPS.pdf"
@@ -105,10 +106,10 @@ done
 echo
 echo "Status(main, indico, mirror): (${Totoal_Status[0]}, ${Totoal_Status[1]}, ${Totoal_Status[2]})"
 
-## -- Send a mail if there is an error (Please modify mail address if you need) -- ##
+## -- Report status by email -- ##
+## Please modify "mail_address" if you need.
+## If there is a problem in wifi connection, then email will not be sent to you.
 mail_address="dustmqdyd93@gmail.com"
-if [ ${Totoal_Status[0]} = "ERROR" -o ${Totoal_Status[1]} = "ERROR" -o ${Totoal_Status[2]} = "ERROR" ]; then
-	echo "Error will be informed by email: $mail_address"
-	echo "ERROR is found" | mail -s "check ICHEP2018 web sites" $mail_address
-fi
+echo "Report status by email: $mail_address"
+echo "Status(main, indico, mirror): (${Totoal_Status[0]}, ${Totoal_Status[1]}, ${Totoal_Status[2]})" | mail -s "Status of ICHEP2018 web sites" $mail_address
 
