@@ -20,13 +20,13 @@ Site_List=(
 ## You can modify download list of indico and mirror sites if you need.
 Download_List_Indico=(
 	"https://indico.cern.ch/event/686555/book-of-abstracts.pdf"
-	"https://indico.cern.ch/event/686555/contributions/2969926/attachments/1681998/2702582/ICHEP_2018_Solt_HPS.pdf"
-	"https://indico.cern.ch/event/686555/contributions/2970910/attachments/1681795/2702209/OT_ICHEP18_04.pdf"
+	"https://indico.cern.ch/event/686555/contributions/3028073/attachments/1683947/2706879/201810August_ICHEP_HiggsPlenary_3.pdf"
+	"https://indico.cern.ch/event/686555/contributions/3028074/attachments/1683946/2706878/skinnari_TopEW_ICHEP2018.pdf"
 	)
 Download_List_Mirror=(
 	"http://147.47.50.77/OfflineWebsite-ICHEP2018_SEOUL/book-of-abstracts.pdf"
 	"http://147.47.50.77/OfflineWebsite-ICHEP2018_SEOUL/files/agenda/2969916-contribution/2698170-ICHEP2016_dark_Belle.pdf"
-	"http://147.47.50.77/OfflineWebsite-ICHEP2018_SEOUL/files/agenda/2947392-contribution/2684310-JRR_2018_ICHEP_LHT.pdf"
+	"http://147.47.50.77/OfflineWebsite-ICHEP2018_SEOUL/files/agenda/3028083-contribution/2704927-ICHEP2018.pdf"
 	)
 Totoal_Status=()
 iter=0
@@ -114,6 +114,6 @@ echo "Report status by email: $mail_address"
 ## Contents of email
 Line1="Status(main, indico, mirror): (${Totoal_Status[0]}, ${Totoal_Status[1]}, ${Totoal_Status[2]})"
 Line2="(sent at `date | grep 2018`)"
-
+## Send email
 echo -e "${Line1}\n${Line2}" | mail -s "Status of ICHEP2018 web sites" $mail_address
 
