@@ -11,3 +11,7 @@ Usage:
 	./check.sh >&check.log&
 
 WARNING: You may need to change default setting of email address to take a status report by email.
+
+## fb_messenger
+The messenger from machine using facebook chat
+
