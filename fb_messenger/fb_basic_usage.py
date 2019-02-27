@@ -35,8 +35,9 @@ from fbchat import Client
 from fbchat.models import *
 
 ## -- client = Client('<email>', '<password>') -- ##
-main_client = Client('dalminpai93@gmail.com', 'dal.min.pai.93')
-assistant_client = Client('john.316.galatians.220@gmail.com', 'house.m.d')
+main_client = Client('YourMain@Facebook.Account', 'YourMainAccountPassword')
+assistant_client = Client('YourAssistant@Facebook.Account', 'YourAssistantAccountPassword')
+
 
 ## -- message -- ##
 '''
@@ -57,8 +58,10 @@ f = open( "%s" % sys.argv[1], 'r' )
 message = f.read()
 f.close()
 
+
 ## -- send message to the main client from the assistant client -- ##
 assistant_client.send(Message(text=message), thread_id=main_client.uid, thread_type=ThreadType.USER)
+
 
 ## -- logout -- ##
 main_client.logout()
